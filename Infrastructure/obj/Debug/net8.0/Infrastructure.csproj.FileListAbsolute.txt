@@ -1,0 +1,17 @@
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

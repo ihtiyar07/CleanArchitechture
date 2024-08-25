@@ -1,0 +1,32 @@
+@model List<TaskItem>
+
+    <h2>To Do App</h2>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>IsCompleted</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Description</td>
+                    <td>@book.IsCompleted</td>
+
+                    <td class="">
+                        <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-primary ">Details</a> |
+                        <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-secondary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-danger ">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+    
