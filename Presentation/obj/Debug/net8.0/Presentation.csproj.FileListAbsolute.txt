@@ -42,3 +42,4 @@ C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Presentation\bi
 C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Presentation\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Presentation\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Presentation\obj\Debug\net8.0\Presentation.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json

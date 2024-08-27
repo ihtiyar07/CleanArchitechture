@@ -11,6 +11,20 @@ builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<ITaskService, TaskService>();
 /* builder.Services.AddAutoMapper(typeof(MappingProfile));
  */
+
+
+
+builder.Services.AddScoped<IGetTaskById, GetToDoItemById>();
+builder.Services.AddScoped<IGetAllTask, GetlAllToDoItem>();
+builder.Services.AddScoped<IUpdateTask, UpdateToDoItemCommands>();
+builder.Services.AddScoped<IAddTask, CreateToDoItemCommands>();
+builder.Services.AddScoped<IDeleteTask, DeleteToDoItemCommands>();
+
+
+
+
+
+
 var app = builder.Build();
 
 

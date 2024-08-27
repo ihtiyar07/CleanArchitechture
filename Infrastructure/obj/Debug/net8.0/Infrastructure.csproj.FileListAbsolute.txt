@@ -15,3 +15,4 @@ C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\
 C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

@@ -15,9 +15,11 @@ public class TaskRepository : ITaskRepository
     {
         return _tasks;
     } 
-    public TaskItem GetTask(int? id)
+    public TaskItem GetTask(int id)
     {
-        return _tasks.FirstOrDefault(t => t.Id == id);
+        var task = _tasks.FirstOrDefault(t => t.Id == id);
+        
+        return task;
     }
 
 
@@ -37,14 +39,15 @@ public class TaskRepository : ITaskRepository
         }
     }
 
-    public void DeleteTask(int id)
+    public TaskItem DeleteTask(int id)
     {
         var task = _tasks.FirstOrDefault(t => t.Id == id);
-        if (task != null)
+        if (task == null)
         {
-            _tasks.Remove(task);
+            return null;
         }
+        _tasks.Remove(task);
+        return task;
     }
-
 
 }
