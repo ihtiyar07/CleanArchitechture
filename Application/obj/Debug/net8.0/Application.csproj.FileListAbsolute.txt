@@ -13,3 +13,4 @@ C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Application\obj
 C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\ahmet\Desktop\web\asp_net_core_dersleri\SolutionToDoApp\Application\obj\Debug\net8.0\Application.sourcelink.json

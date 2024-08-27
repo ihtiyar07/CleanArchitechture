@@ -24,17 +24,13 @@ public class TaskService : ITaskService
         _taskRepository.UpdateTask(task);
     }
 
-    public void DeleteTask(int id)
+    public TaskItem DeleteTask(int id)
     {
-        _taskRepository.DeleteTask(id);
+        var res = _taskRepository.DeleteTask(id);
+        return res;
     }
 
     public TaskItem GetTask(int id)
-    {
-        return _taskRepository.GetTask(id);
-    }
-
-    public TaskItem GetTask(int? id)
     {
         return _taskRepository.GetTask(id);
     }

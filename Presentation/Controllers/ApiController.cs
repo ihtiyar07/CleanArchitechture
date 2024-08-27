@@ -3,29 +3,41 @@ using Microsoft.AspNetCore.Mvc;
 [ApiController]
 [Route("[controller]")]
 public class ApiController : ControllerBase
-{
-    private readonly ITaskService _taskService;
+{   
 
-    public ApiController(ITaskService taskService)
+    private readonly IGetTaskById _getTaskById;
+    private readonly IGetAllTask _getAllTask;
+    private readonly IUpdateTask _updateTask;
+    private readonly IAddTask _addTask;
+    private readonly IDeleteTask _deleteTask;
+
+     public ApiController(
+        IGetTaskById getTaskById,
+        IGetAllTask getAllTask,
+        IUpdateTask updateTask,
+        IAddTask addTask,
+        IDeleteTask deleteTask
+    )
     {
-        _taskService = taskService;
+        _getTaskById = getTaskById;
+        _getAllTask = getAllTask;
+        _updateTask = updateTask;
+        _addTask = addTask;
+        _deleteTask = deleteTask;
     }
+
 
     [HttpGet("GetProducts")]
     public IActionResult GetProducts()
     {
-        var products =  _taskService.GetTasks();
+        var products =  _getAllTask.GetTasks();
         return Ok(products);
     }
 
     [HttpGet("GetProduct/{id}")]
-    public IActionResult GetProduct(int? id)
+    public IActionResult GetProduct(int id)
     {
-        if (id == null)
-        {
-            return NotFound();
-        }
-        var product = _taskService.GetTask(id);
+        var product = _getTaskById.GetTask(id);
         
         if (product == null)
         {
@@ -37,21 +49,24 @@ public class ApiController : ControllerBase
     [HttpPost("Create")]
     public IActionResult Create(TaskItem task)
     {
-        _taskService.AddTask(task);
+        _addTask.AddTask(task);
         return Ok(task);
     }
 
     [HttpPost("Edit")]
     public IActionResult Edit(TaskItem task)
     {
-        _taskService.UpdateTask(task);
+        _updateTask.UpdateTask(task);
         return Ok();
     }
 
     [HttpPost("Delete")]
     public IActionResult Delete(int id)
     {
-        _taskService.DeleteTask(id);
-        return Ok();
+        var res = _deleteTask.DeleteTask(id);    
+        if(res == null){
+            return NotFound($"ID:{id} not found.");
+        }  
+        return Ok(res.Title + "is deletd");
     }
 }
